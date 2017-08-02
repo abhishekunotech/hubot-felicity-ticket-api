@@ -1,0 +1,40 @@
+{
+  "name": "hubot-felicity-ticket-api",
+  "description": "A hubot script that will connect to the Felicity Service Desk - Integration Platform",
+  "version": "0.1.8-0",
+  "author": "Abhishek Kulkarni - Unotech Software",
+  "license": "MIT",
+  "keywords": "hubot, hubot-scripts, felicity, api, configuration",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abhishekunotech/hubot-felicity-ticket-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/abhishekunotech/hubot-felicity-ticket-api/issues"
+  },
+  "dependencies": {
+    "hubot-conversation": "^1.1.1"
+  },
+  "peerDependencies": {
+    "hubot": "2.x"
+  },
+  "devDependencies": {
+    "hubot-test-helper": "^1.3.0",
+    "chai": "^2.1.1",
+    "coffee-script": "1.6.3",
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-mocha-test": "~0.12.7",
+    "grunt-release": "~0.11.0",
+    "hubot": "2.x",
+    "matchdep": "~0.3.0",
+    "mocha": "^2.1.0",
+    "sinon": "^1.13.0",
+    "sinon-chai": "^2.7.0"
+  },
+  "main": "index.coffee",
+  "scripts": {
+    "test": "grunt test"
+  }
+}
